@@ -1,5 +1,5 @@
 import streamlit as st
-import functions
+from web_app1 import functions
 
 todos = functions.get_todos()
 
